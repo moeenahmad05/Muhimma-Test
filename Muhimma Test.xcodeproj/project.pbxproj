@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F76B32EC236DB93000B8DD5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B32EB236DB93000B8DD5D /* AppDelegate.swift */; };
+		F76B32EE236DB93000B8DD5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B32ED236DB93000B8DD5D /* SceneDelegate.swift */; };
+		F76B32F0236DB93000B8DD5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B32EF236DB93000B8DD5D /* ViewController.swift */; };
+		F76B32F3236DB93000B8DD5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76B32F1236DB93000B8DD5D /* Main.storyboard */; };
+		F76B32F5236DB93500B8DD5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76B32F4236DB93500B8DD5D /* Assets.xcassets */; };
+		F76B32F8236DB93500B8DD5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76B32F6236DB93500B8DD5D /* LaunchScreen.storyboard */; };
+		F76B3303236DB93600B8DD5D /* Muhimma_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B3302236DB93600B8DD5D /* Muhimma_TestTests.swift */; };
+		F76B330E236DB93600B8DD5D /* Muhimma_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B330D236DB93600B8DD5D /* Muhimma_TestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F76B32FF236DB93600B8DD5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F76B32E0236DB93000B8DD5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F76B32E7236DB93000B8DD5D;
+			remoteInfo = "Muhimma Test";
+		};
+		F76B330A236DB93600B8DD5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F76B32E0236DB93000B8DD5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F76B32E7236DB93000B8DD5D;
+			remoteInfo = "Muhimma Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F76B32E8236DB93000B8DD5D /* Muhimma Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Muhimma Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76B32EB236DB93000B8DD5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F76B32ED236DB93000B8DD5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F76B32EF236DB93000B8DD5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F76B32F2236DB93000B8DD5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F76B32F4236DB93500B8DD5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F76B32F7236DB93500B8DD5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F76B32F9236DB93500B8DD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F76B32FE236DB93600B8DD5D /* Muhimma TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Muhimma TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76B3302236DB93600B8DD5D /* Muhimma_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Muhimma_TestTests.swift; sourceTree = "<group>"; };
+		F76B3304236DB93600B8DD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F76B3309236DB93600B8DD5D /* Muhimma TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Muhimma TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76B330D236DB93600B8DD5D /* Muhimma_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Muhimma_TestUITests.swift; sourceTree = "<group>"; };
+		F76B330F236DB93600B8DD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F76B32E5236DB93000B8DD5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76B32FB236DB93600B8DD5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76B3306236DB93600B8DD5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F76B32DF236DB93000B8DD5D = {
+			isa = PBXGroup;
+			children = (
+				F76B32EA236DB93000B8DD5D /* Muhimma Test */,
+				F76B3301236DB93600B8DD5D /* Muhimma TestTests */,
+				F76B330C236DB93600B8DD5D /* Muhimma TestUITests */,
+				F76B32E9236DB93000B8DD5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F76B32E9236DB93000B8DD5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F76B32E8236DB93000B8DD5D /* Muhimma Test.app */,
+				F76B32FE236DB93600B8DD5D /* Muhimma TestTests.xctest */,
+				F76B3309236DB93600B8DD5D /* Muhimma TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F76B32EA236DB93000B8DD5D /* Muhimma Test */ = {
+			isa = PBXGroup;
+			children = (
+				F76B32EB236DB93000B8DD5D /* AppDelegate.swift */,
+				F76B32ED236DB93000B8DD5D /* SceneDelegate.swift */,
+				F76B32EF236DB93000B8DD5D /* ViewController.swift */,
+				F76B32F1236DB93000B8DD5D /* Main.storyboard */,
+				F76B32F4236DB93500B8DD5D /* Assets.xcassets */,
+				F76B32F6236DB93500B8DD5D /* LaunchScreen.storyboard */,
+				F76B32F9236DB93500B8DD5D /* Info.plist */,
+			);
+			path = "Muhimma Test";
+			sourceTree = "<group>";
+		};
+		F76B3301236DB93600B8DD5D /* Muhimma TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				F76B3302236DB93600B8DD5D /* Muhimma_TestTests.swift */,
+				F76B3304236DB93600B8DD5D /* Info.plist */,
+			);
+			path = "Muhimma TestTests";
+			sourceTree = "<group>";
+		};
+		F76B330C236DB93600B8DD5D /* Muhimma TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F76B330D236DB93600B8DD5D /* Muhimma_TestUITests.swift */,
+				F76B330F236DB93600B8DD5D /* Info.plist */,
+			);
+			path = "Muhimma TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F76B32E7236DB93000B8DD5D /* Muhimma Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76B3312236DB93600B8DD5D /* Build configuration list for PBXNativeTarget "Muhimma Test" */;
+			buildPhases = (
+				F76B32E4236DB93000B8DD5D /* Sources */,
+				F76B32E5236DB93000B8DD5D /* Frameworks */,
+				F76B32E6236DB93000B8DD5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Muhimma Test";
+			productName = "Muhimma Test";
+			productReference = F76B32E8236DB93000B8DD5D /* Muhimma Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F76B32FD236DB93600B8DD5D /* Muhimma TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76B3315236DB93600B8DD5D /* Build configuration list for PBXNativeTarget "Muhimma TestTests" */;
+			buildPhases = (
+				F76B32FA236DB93600B8DD5D /* Sources */,
+				F76B32FB236DB93600B8DD5D /* Frameworks */,
+				F76B32FC236DB93600B8DD5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F76B3300236DB93600B8DD5D /* PBXTargetDependency */,
+			);
+			name = "Muhimma TestTests";
+			productName = "Muhimma TestTests";
+			productReference = F76B32FE236DB93600B8DD5D /* Muhimma TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F76B3308236DB93600B8DD5D /* Muhimma TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76B3318236DB93600B8DD5D /* Build configuration list for PBXNativeTarget "Muhimma TestUITests" */;
+			buildPhases = (
+				F76B3305236DB93600B8DD5D /* Sources */,
+				F76B3306236DB93600B8DD5D /* Frameworks */,
+				F76B3307236DB93600B8DD5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F76B330B236DB93600B8DD5D /* PBXTargetDependency */,
+			);
+			name = "Muhimma TestUITests";
+			productName = "Muhimma TestUITests";
+			productReference = F76B3309236DB93600B8DD5D /* Muhimma TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F76B32E0236DB93000B8DD5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Muhimma.com.ae;
+				TargetAttributes = {
+					F76B32E7236DB93000B8DD5D = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					F76B32FD236DB93600B8DD5D = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = F76B32E7236DB93000B8DD5D;
+					};
+					F76B3308236DB93600B8DD5D = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = F76B32E7236DB93000B8DD5D;
+					};
+				};
+			};
+			buildConfigurationList = F76B32E3236DB93000B8DD5D /* Build configuration list for PBXProject "Muhimma Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F76B32DF236DB93000B8DD5D;
+			productRefGroup = F76B32E9236DB93000B8DD5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F76B32E7236DB93000B8DD5D /* Muhimma Test */,
+				F76B32FD236DB93600B8DD5D /* Muhimma TestTests */,
+				F76B3308236DB93600B8DD5D /* Muhimma TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F76B32E6236DB93000B8DD5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76B32F8236DB93500B8DD5D /* LaunchScreen.storyboard in Resources */,
+				F76B32F5236DB93500B8DD5D /* Assets.xcassets in Resources */,
+				F76B32F3236DB93000B8DD5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76B32FC236DB93600B8DD5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76B3307236DB93600B8DD5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F76B32E4236DB93000B8DD5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76B32F0236DB93000B8DD5D /* ViewController.swift in Sources */,
+				F76B32EC236DB93000B8DD5D /* AppDelegate.swift in Sources */,
+				F76B32EE236DB93000B8DD5D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76B32FA236DB93600B8DD5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76B3303236DB93600B8DD5D /* Muhimma_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76B3305236DB93600B8DD5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76B330E236DB93600B8DD5D /* Muhimma_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F76B3300236DB93600B8DD5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F76B32E7236DB93000B8DD5D /* Muhimma Test */;
+			targetProxy = F76B32FF236DB93600B8DD5D /* PBXContainerItemProxy */;
+		};
+		F76B330B236DB93600B8DD5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F76B32E7236DB93000B8DD5D /* Muhimma Test */;
+			targetProxy = F76B330A236DB93600B8DD5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F76B32F1236DB93000B8DD5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76B32F2236DB93000B8DD5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F76B32F6236DB93500B8DD5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76B32F7236DB93500B8DD5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F76B3310236DB93600B8DD5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F76B3311236DB93600B8DD5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F76B3313236DB93600B8DD5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M86XZ2F344;
+				INFOPLIST_FILE = "Muhimma Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moeenahmadmuhimaa.ae.Muhimma-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F76B3314236DB93600B8DD5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M86XZ2F344;
+				INFOPLIST_FILE = "Muhimma Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moeenahmadmuhimaa.ae.Muhimma-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F76B3316236DB93600B8DD5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M86XZ2F344;
+				INFOPLIST_FILE = "Muhimma TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moeenahmadmuhimaa.ae.Muhimma-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muhimma Test.app/Muhimma Test";
+			};
+			name = Debug;
+		};
+		F76B3317236DB93600B8DD5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M86XZ2F344;
+				INFOPLIST_FILE = "Muhimma TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moeenahmadmuhimaa.ae.Muhimma-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muhimma Test.app/Muhimma Test";
+			};
+			name = Release;
+		};
+		F76B3319236DB93600B8DD5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M86XZ2F344;
+				INFOPLIST_FILE = "Muhimma TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moeenahmadmuhimaa.ae.Muhimma-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Muhimma Test";
+			};
+			name = Debug;
+		};
+		F76B331A236DB93600B8DD5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M86XZ2F344;
+				INFOPLIST_FILE = "Muhimma TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moeenahmadmuhimaa.ae.Muhimma-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Muhimma Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F76B32E3236DB93000B8DD5D /* Build configuration list for PBXProject "Muhimma Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76B3310236DB93600B8DD5D /* Debug */,
+				F76B3311236DB93600B8DD5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F76B3312236DB93600B8DD5D /* Build configuration list for PBXNativeTarget "Muhimma Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76B3313236DB93600B8DD5D /* Debug */,
+				F76B3314236DB93600B8DD5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F76B3315236DB93600B8DD5D /* Build configuration list for PBXNativeTarget "Muhimma TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76B3316236DB93600B8DD5D /* Debug */,
+				F76B3317236DB93600B8DD5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F76B3318236DB93600B8DD5D /* Build configuration list for PBXNativeTarget "Muhimma TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76B3319236DB93600B8DD5D /* Debug */,
+				F76B331A236DB93600B8DD5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F76B32E0236DB93000B8DD5D /* Project object */;
+}
