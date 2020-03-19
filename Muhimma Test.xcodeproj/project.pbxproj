@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17E05B4D601106C44B18F9B0 /* Pods_Muhimma_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7738EE9804079E4271E939 /* Pods_Muhimma_TestTests.framework */; };
+		46C603C19FAD2C4D988A723F /* Pods_Muhimma_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84817336ADBDBFED0298F68 /* Pods_Muhimma_Test.framework */; };
+		9BC5006FED686F858B500AB0 /* Pods_Muhimma_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FCE0509F9E2C199428B0D0 /* Pods_Muhimma_TestUITests.framework */; };
 		F76B32EC236DB93000B8DD5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B32EB236DB93000B8DD5D /* AppDelegate.swift */; };
 		F76B32EE236DB93000B8DD5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B32ED236DB93000B8DD5D /* SceneDelegate.swift */; };
-		F76B32F0236DB93000B8DD5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B32EF236DB93000B8DD5D /* ViewController.swift */; };
-		F76B32F3236DB93000B8DD5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76B32F1236DB93000B8DD5D /* Main.storyboard */; };
 		F76B32F5236DB93500B8DD5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76B32F4236DB93500B8DD5D /* Assets.xcassets */; };
 		F76B32F8236DB93500B8DD5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76B32F6236DB93500B8DD5D /* LaunchScreen.storyboard */; };
 		F76B3303236DB93600B8DD5D /* Muhimma_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B3302236DB93600B8DD5D /* Muhimma_TestTests.swift */; };
 		F76B330E236DB93600B8DD5D /* Muhimma_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B330D236DB93600B8DD5D /* Muhimma_TestUITests.swift */; };
+		F76B3328236DC89400B8DD5D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B3324236DC89400B8DD5D /* Constants.swift */; };
+		F76B3329236DC89400B8DD5D /* UserHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B3325236DC89400B8DD5D /* UserHandler.swift */; };
+		F76B332A236DC89400B8DD5D /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B3326236DC89400B8DD5D /* Network.swift */; };
+		F76B332B236DC89400B8DD5D /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B3327236DC89400B8DD5D /* NetworkHandler.swift */; };
+		F76B332F236DCA4300B8DD5D /* UserModelRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B332D236DCA4200B8DD5D /* UserModelRoot.swift */; };
+		F76B3330236DCA4300B8DD5D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B332E236DCA4200B8DD5D /* UserData.swift */; };
+		F76B3332236DCCF600B8DD5D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B3331236DCCF600B8DD5D /* LoginViewController.swift */; };
+		F76B3337236DDEB000B8DD5D /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B3335236DDEB000B8DD5D /* AppContext.swift */; };
+		F76B3339236DDF9500B8DD5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76B3338236DDF9500B8DD5D /* Main.storyboard */; };
+		F76B333E236DDFC100B8DD5D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B333A236DDFC000B8DD5D /* FirstViewController.swift */; };
+		F76B333F236DDFC100B8DD5D /* ConfirmSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B333B236DDFC100B8DD5D /* ConfirmSignUpViewController.swift */; };
+		F76B3340236DDFC100B8DD5D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B333C236DDFC100B8DD5D /* SignInViewController.swift */; };
+		F76B3341236DDFC100B8DD5D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B333D236DDFC100B8DD5D /* SignUpViewController.swift */; };
+		F76B3343236DDFD700B8DD5D /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B3342236DDFD700B8DD5D /* SessionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +50,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21FCE0509F9E2C199428B0D0 /* Pods_Muhimma_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muhimma_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CFC84ADA8ADC22A1CDBA37E /* Pods-Muhimma TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muhimma TestTests.debug.xcconfig"; path = "Target Support Files/Pods-Muhimma TestTests/Pods-Muhimma TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F85B11E29B22DBA8272A5A8 /* Pods-Muhimma Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muhimma Test.debug.xcconfig"; path = "Target Support Files/Pods-Muhimma Test/Pods-Muhimma Test.debug.xcconfig"; sourceTree = "<group>"; };
+		9B7738EE9804079E4271E939 /* Pods_Muhimma_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muhimma_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CBD6077DB5CE48C005B08C4 /* Pods-Muhimma TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muhimma TestUITests.debug.xcconfig"; path = "Target Support Files/Pods-Muhimma TestUITests/Pods-Muhimma TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A90D64ECAFD3944EF068F18E /* Pods-Muhimma TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muhimma TestUITests.release.xcconfig"; path = "Target Support Files/Pods-Muhimma TestUITests/Pods-Muhimma TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C2F0980C74EDD99092D8EFC0 /* Pods-Muhimma TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muhimma TestTests.release.xcconfig"; path = "Target Support Files/Pods-Muhimma TestTests/Pods-Muhimma TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		E84817336ADBDBFED0298F68 /* Pods_Muhimma_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muhimma_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76B32E8236DB93000B8DD5D /* Muhimma Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Muhimma Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76B32EB236DB93000B8DD5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F76B32ED236DB93000B8DD5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F76B32EF236DB93000B8DD5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F76B32F2236DB93000B8DD5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F76B32F4236DB93500B8DD5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F76B32F7236DB93500B8DD5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F76B32F9236DB93500B8DD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +70,21 @@
 		F76B3309236DB93600B8DD5D /* Muhimma TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Muhimma TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76B330D236DB93600B8DD5D /* Muhimma_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Muhimma_TestUITests.swift; sourceTree = "<group>"; };
 		F76B330F236DB93600B8DD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F76B3324236DC89400B8DD5D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F76B3325236DC89400B8DD5D /* UserHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHandler.swift; sourceTree = "<group>"; };
+		F76B3326236DC89400B8DD5D /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		F76B3327236DC89400B8DD5D /* NetworkHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
+		F76B332D236DCA4200B8DD5D /* UserModelRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModelRoot.swift; sourceTree = "<group>"; };
+		F76B332E236DCA4200B8DD5D /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		F76B3331236DCCF600B8DD5D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F76B3335236DDEB000B8DD5D /* AppContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
+		F76B3338236DDF9500B8DD5D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F76B333A236DDFC000B8DD5D /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F76B333B236DDFC100B8DD5D /* ConfirmSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmSignUpViewController.swift; sourceTree = "<group>"; };
+		F76B333C236DDFC100B8DD5D /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		F76B333D236DDFC100B8DD5D /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F76B3342236DDFD700B8DD5D /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		F8AC1B61013CE22867C9BF10 /* Pods-Muhimma Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muhimma Test.release.xcconfig"; path = "Target Support Files/Pods-Muhimma Test/Pods-Muhimma Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46C603C19FAD2C4D988A723F /* Pods_Muhimma_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E05B4D601106C44B18F9B0 /* Pods_Muhimma_TestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +108,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC5006FED686F858B500AB0 /* Pods_Muhimma_TestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7AB67E32BBA1A0BB023BC189 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E84817336ADBDBFED0298F68 /* Pods_Muhimma_Test.framework */,
+				9B7738EE9804079E4271E939 /* Pods_Muhimma_TestTests.framework */,
+				21FCE0509F9E2C199428B0D0 /* Pods_Muhimma_TestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4989CCADABD1A265F05693E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F85B11E29B22DBA8272A5A8 /* Pods-Muhimma Test.debug.xcconfig */,
+				F8AC1B61013CE22867C9BF10 /* Pods-Muhimma Test.release.xcconfig */,
+				4CFC84ADA8ADC22A1CDBA37E /* Pods-Muhimma TestTests.debug.xcconfig */,
+				C2F0980C74EDD99092D8EFC0 /* Pods-Muhimma TestTests.release.xcconfig */,
+				9CBD6077DB5CE48C005B08C4 /* Pods-Muhimma TestUITests.debug.xcconfig */,
+				A90D64ECAFD3944EF068F18E /* Pods-Muhimma TestUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F76B32DF236DB93000B8DD5D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +145,8 @@
 				F76B3301236DB93600B8DD5D /* Muhimma TestTests */,
 				F76B330C236DB93600B8DD5D /* Muhimma TestUITests */,
 				F76B32E9236DB93000B8DD5D /* Products */,
+				A4989CCADABD1A265F05693E /* Pods */,
+				7AB67E32BBA1A0BB023BC189 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +163,12 @@
 		F76B32EA236DB93000B8DD5D /* Muhimma Test */ = {
 			isa = PBXGroup;
 			children = (
-				F76B32EB236DB93000B8DD5D /* AppDelegate.swift */,
+				F76B331B236DBC7800B8DD5D /* Helpers */,
+				F76B3321236DC86300B8DD5D /* Models */,
+				F76B3322236DC86D00B8DD5D /* Views */,
+				F76B3323236DC87400B8DD5D /* Controllers */,
 				F76B32ED236DB93000B8DD5D /* SceneDelegate.swift */,
-				F76B32EF236DB93000B8DD5D /* ViewController.swift */,
-				F76B32F1236DB93000B8DD5D /* Main.storyboard */,
+				F76B32EB236DB93000B8DD5D /* AppDelegate.swift */,
 				F76B32F4236DB93500B8DD5D /* Assets.xcassets */,
 				F76B32F6236DB93500B8DD5D /* LaunchScreen.storyboard */,
 				F76B32F9236DB93500B8DD5D /* Info.plist */,
@@ -128,6 +194,64 @@
 			path = "Muhimma TestUITests";
 			sourceTree = "<group>";
 		};
+		F76B331B236DBC7800B8DD5D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F76B3333236DDEB000B8DD5D /* Utilities */,
+				F76B3324236DC89400B8DD5D /* Constants.swift */,
+				F76B3326236DC89400B8DD5D /* Network.swift */,
+				F76B3327236DC89400B8DD5D /* NetworkHandler.swift */,
+				F76B3325236DC89400B8DD5D /* UserHandler.swift */,
+				F76B3342236DDFD700B8DD5D /* SessionManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F76B3321236DC86300B8DD5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F76B332C236DCA3700B8DD5D /* Login */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F76B3322236DC86D00B8DD5D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F76B3338236DDF9500B8DD5D /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F76B3323236DC87400B8DD5D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F76B333B236DDFC100B8DD5D /* ConfirmSignUpViewController.swift */,
+				F76B333A236DDFC000B8DD5D /* FirstViewController.swift */,
+				F76B333C236DDFC100B8DD5D /* SignInViewController.swift */,
+				F76B333D236DDFC100B8DD5D /* SignUpViewController.swift */,
+				F76B3331236DCCF600B8DD5D /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F76B332C236DCA3700B8DD5D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F76B332D236DCA4200B8DD5D /* UserModelRoot.swift */,
+				F76B332E236DCA4200B8DD5D /* UserData.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F76B3333236DDEB000B8DD5D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F76B3335236DDEB000B8DD5D /* AppContext.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F76B3312236DB93600B8DD5D /* Build configuration list for PBXNativeTarget "Muhimma Test" */;
 			buildPhases = (
+				EA45D601806BA8E6AC7B3E85 /* [CP] Check Pods Manifest.lock */,
 				F76B32E4236DB93000B8DD5D /* Sources */,
 				F76B32E5236DB93000B8DD5D /* Frameworks */,
 				F76B32E6236DB93000B8DD5D /* Resources */,
+				CE71B44AA132B4B379EBA1A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F76B3315236DB93600B8DD5D /* Build configuration list for PBXNativeTarget "Muhimma TestTests" */;
 			buildPhases = (
+				D7B54FA120FDF941B105F8C4 /* [CP] Check Pods Manifest.lock */,
 				F76B32FA236DB93600B8DD5D /* Sources */,
 				F76B32FB236DB93600B8DD5D /* Frameworks */,
 				F76B32FC236DB93600B8DD5D /* Resources */,
@@ -170,6 +297,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F76B3318236DB93600B8DD5D /* Build configuration list for PBXNativeTarget "Muhimma TestUITests" */;
 			buildPhases = (
+				CF8631AB3BAFEDF733073AFB /* [CP] Check Pods Manifest.lock */,
 				F76B3305236DB93600B8DD5D /* Sources */,
 				F76B3306236DB93600B8DD5D /* Frameworks */,
 				F76B3307236DB93600B8DD5D /* Resources */,
@@ -232,9 +360,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76B3339236DDF9500B8DD5D /* Main.storyboard in Resources */,
 				F76B32F8236DB93500B8DD5D /* LaunchScreen.storyboard in Resources */,
 				F76B32F5236DB93500B8DD5D /* Assets.xcassets in Resources */,
-				F76B32F3236DB93000B8DD5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +382,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CE71B44AA132B4B379EBA1A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Muhimma Test/Pods-Muhimma Test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoAuth/AWSCognitoAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyCodeView/SwiftyCodeView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyCodeView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Muhimma Test/Pods-Muhimma Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF8631AB3BAFEDF733073AFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Muhimma TestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7B54FA120FDF941B105F8C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Muhimma TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA45D601806BA8E6AC7B3E85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Muhimma Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F76B32E4236DB93000B8DD5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F76B32F0236DB93000B8DD5D /* ViewController.swift in Sources */,
+				F76B3340236DDFC100B8DD5D /* SignInViewController.swift in Sources */,
+				F76B3332236DCCF600B8DD5D /* LoginViewController.swift in Sources */,
 				F76B32EC236DB93000B8DD5D /* AppDelegate.swift in Sources */,
+				F76B332F236DCA4300B8DD5D /* UserModelRoot.swift in Sources */,
+				F76B333F236DDFC100B8DD5D /* ConfirmSignUpViewController.swift in Sources */,
+				F76B333E236DDFC100B8DD5D /* FirstViewController.swift in Sources */,
+				F76B3330236DCA4300B8DD5D /* UserData.swift in Sources */,
+				F76B332A236DC89400B8DD5D /* Network.swift in Sources */,
+				F76B3337236DDEB000B8DD5D /* AppContext.swift in Sources */,
+				F76B3341236DDFC100B8DD5D /* SignUpViewController.swift in Sources */,
+				F76B3329236DC89400B8DD5D /* UserHandler.swift in Sources */,
 				F76B32EE236DB93000B8DD5D /* SceneDelegate.swift in Sources */,
+				F76B3328236DC89400B8DD5D /* Constants.swift in Sources */,
+				F76B3343236DDFD700B8DD5D /* SessionManager.swift in Sources */,
+				F76B332B236DC89400B8DD5D /* NetworkHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +546,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F76B32F1236DB93000B8DD5D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F76B32F2236DB93000B8DD5D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F76B32F6236DB93500B8DD5D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,11 +673,13 @@
 		};
 		F76B3313236DB93600B8DD5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F85B11E29B22DBA8272A5A8 /* Pods-Muhimma Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M86XZ2F344;
 				INFOPLIST_FILE = "Muhimma Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +693,13 @@
 		};
 		F76B3314236DB93600B8DD5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8AC1B61013CE22867C9BF10 /* Pods-Muhimma Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M86XZ2F344;
 				INFOPLIST_FILE = "Muhimma Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +713,7 @@
 		};
 		F76B3316236DB93600B8DD5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CFC84ADA8ADC22A1CDBA37E /* Pods-Muhimma TestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +736,7 @@
 		};
 		F76B3317236DB93600B8DD5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F0980C74EDD99092D8EFC0 /* Pods-Muhimma TestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +759,7 @@
 		};
 		F76B3319236DB93600B8DD5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CBD6077DB5CE48C005B08C4 /* Pods-Muhimma TestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +780,7 @@
 		};
 		F76B331A236DB93600B8DD5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A90D64ECAFD3944EF068F18E /* Pods-Muhimma TestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
